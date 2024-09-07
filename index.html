@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ui Path</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .first-nav{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: -10px;
+    }
+
+    .first-nav p{
+        padding: 10px;
+        font-weight: bolder;
+    }
+
+    #logo{
+        font-weight: 500;
+    }
+
+    #logo button{
+        font-size: 15px;
+        border: 3px solid orangered;
+        background-color: transparent;
+         color: orangered;
+        
+    }
+
+   
+
+    .first-nav span{
+        color: orangered;
+
+    }
+
+    .first-nav a{
+        text-decoration: none;
+        top: 200px;
+    }
+
+    .second-nav{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .second-nav button{
+        padding: 10px 10px;
+        background-color: orangered;
+        color: white;
+        border: none;
+    }
+
+    .second-nav a{
+         text-decoration: none;
+         color: black;
+         padding: 10px 10px;
+    }
+
+    .second-nav span{
+        color: orangered;
+        font-weight: bolder;
+       
+    }
+
+    .buttons{
+        padding: 5px 100px;
+    }
+
+   
+
+    .buttons button{
+        border: 1px solid black;
+        color: black;
+        background-color: transparent;
+        padding: 10px 30px;
+    }
+    .active{
+        border: none;
+        background-color: orangered;
+        color: white;
+        padding: 10px 40px;
+    }
+
+    .slide-1{
+        display: flex;
+        width: 100%;
+        height: 500px;
+    }
+    .slide-1-content{
+        width: 60%;
+        height: 400px;
+        margin-top: 200px;
+        margin-left: 150px;
+    }
+
+    .slide-1-content h1{
+        font-size: 50px;
+    }
+
+
+    .slide-1 img{
+        width: 40%;
+        object-fit: cover;
+    }
+
+    .slide-2{
+        display: flex;
+        width: 100%;
+        height: 500px;
+    }
+
+    .slide-2-a{
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: orangered;
+        color: white;
+        display: flex;
+        width: 70%;
+        
+    }
+
+    .slide-2-a img{
+        width: 300px;
+    
+    }
+
+    .slide-2-a button{
+        padding: 10px 10px;
+        border: none;
+
+    }
+
+    .slide-2-b{
+        display: block;
+        width: 35%;
+    
+    }
+
+    .slide-2-b-top{
+        width: 100%;
+        height: 250px;
+        background-image: url("images/migration.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+    }
+
+    .slide-2-b-bottom{
+        background-color: light;
+        width: 100%;
+        height: 240px;
+        padding: 30px 50px;
+
+
+    }
+
+    .slide-2-b-bottom span{
+        color: orangered;
+        font-weight: bolder;
+    }
+
+    .slide-2-b-bottom p{
+        font-weight: bolder;
+        font-size: xx-large;
+    }
+  
+   
+</style>
+<body>
+
+    <div class="first-nav">
+        <p id="logo"><span><button style="background-color: transparent;" >Ui</button> Path*</span> Forward</p>
+        <p><span>TRANSFORM</span> WITH  AI</p>
+        <a href="#"><span>Register now -></span> </a>
+    </div>
+
+    <div class="second-nav">
+         <div class="second-nav-content">
+            <a><span> <button style="background-color: transparent; color: orangered; border: 3px solid orangered;  font-size: 10px;">Ui</button> Path*</span></a>
+            <a href="#">Platform</a>
+            <a href="#">Solution</a>
+            <a href="#">Resources</a>
+            <a href="#">About</a>
+         </div>
+
+         <div class="second-nav-content">
+            <a href="#">Contact us</a>
+            <a href="#">Sign in</a>
+            <button>Try UiPath Free</button>
+         </div>
+    </div>
+    <div class="slide-1">
+        <div class="slide-1-content">
+            <h1>Artificial intelligence for <br> the real-world enterprise.</h1>
+            <p>Uipath is AI at work.</p>
+            <div class="buttons">
+                <button style="background-color: orangered; color: whitesmoke;  border: none;"> watch now -></button>
+                <button >Try UiPath free -></button>
+            </div>
+        </div>
+        <img src="images/Screenshot 2024-08-18 104739.png" alt="">
+    </div>
+
+    <div class="slide-2">
+        <div class="slide-2-a">
+            <div class="slide-2-a-content">
+                <h2>
+                    UiPath named a 6-time Leader in the <br>
+                    Gartner Magic Quadrants<sup>TM</sup> for Robotic <br>
+                    Process Automatic
+                </h2>
+                <button>Get the report -></button>
+            </div>
+            <img src="images/magic.png" alt="">
+        </div>
+
+        <div class="slide-2-b">
+            <div class="slide-2-b-top">
+                <h2>A quicker, cleaner path to SAP <br> S/4HANA migration</h2>
+            </div>
+            <div class="slide-2-b-bottom">
+                <h2>MGM Grand , Las Vegas <br> October 21-24, 2024 <br> Regsiter today</h2>
+
+                <p><span><button style="border: 3px solid orangered; background-color: transparent; color: orangered ;  font-weight: bolder;  font-size: xx-large;">Ui</button>Path</span>Forward</p>
+
+            </div>
+
+
+        </div>
+    </div>
+    
+</body>
+</html>
